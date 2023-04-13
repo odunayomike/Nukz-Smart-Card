@@ -1,0 +1,492 @@
+:root{
+    --primary: #FF8B3B;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.Pcontainer{
+    background: var(--primary);
+    width: 360px !important;
+    padding-bottom: 20px;
+
+}
+.Pro-profile-img img{
+    width: 196px;
+    height: 196px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    object-fit: cover;
+
+}
+.Pro-profile-img{
+    text-align: center;
+    padding-top: 15px;
+    line-height: 13px;
+}
+.Pro-profile-img h2{
+    font-weight: 600;
+}
+.img1{
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.img2{
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.img3{
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.img1 i{
+    color: var(--primary);
+    font-size: 20px;
+    content-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img2 i{
+    color: var(--primary);
+    font-size: 20px;
+    content-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img3 i{
+    color: var(--primary);
+    font-size: 20px;
+    content-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.pcontact{
+    display: flex;
+    justify-content: space-evenly;
+    content-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    
+}
+.about{
+    background: #fff;
+    padding: 10px;
+    width: 323px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.about p{
+    padding: 15px;
+}
+.about h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-details{
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 323px;
+    margin: 10px;
+    
+}
+
+.contact-details img{
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 7px;
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+.contact-details h2{
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+.address i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 6px;
+}
+.address button{
+    background: var(--primary);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.call{
+    line-height: 8px;
+    margin-top: 25px;
+}
+.email{
+    line-height: 8px;
+    margin-top: 25px;
+}
+.address{
+    line-height: 8px;
+    margin-top: 25px;
+}
+
+.pfacebook{
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.pfacebook img{
+    margin-left: 15px;
+    margin-top: px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.pfacebook h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: -100px;
+}
+
+.pfacebook i{
+    font-size: 25px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 60px;
+
+    
+}
+
+
+
+
+.pinstagram{
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.pinstagram img{
+    margin-left: 15px;
+    margin-top: px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.pinstagram h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: -100px;
+}
+
+.pinstagram i{
+    font-size: 25px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 60px;
+
+    
+}
+
+
+.plinkedin{
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.plinkedin img{
+    margin-left: 15px;
+    margin-top: px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.plinkedin h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: -100px;
+}
+
+.plinkedin i{
+    font-size: 25px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 60px;
+
+    
+}
+
+
+
+.pwhatsapp{
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.pwhatsapp img{
+    margin-left: 15px;
+    margin-top: px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.pwhatsapp h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: -100px;
+}
+
+.pwhatsapp i{
+    font-size: 25px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 60px;
+
+    
+}
+
+.website{
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 60px 0 60px 0;
+    text-align: center;
+    width: 323px;
+    margin: 10px;
+}
+
+.website a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+}
+.website h2{
+    font-size: 25px !important; 
+    color: rgba(0, 0, 0, 1) !important;
+    font-weight: 700 !important;
+}
+
+.sticky-button{
+    margin-top: 20px;
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-between;
+    margin-top: 20px;
+    bottom: 4%;
+}
+.btn-1{
+    
+    
+}
+
+.btn-1 i{
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(255, 232, 232, 0) 0%, rgba(255, 255, 255, 0.23) 100%);
+    /* border: 5px solid #FFA86D; */
+    box-shadow: 1px 9px 13px 2px var(--primary);
+    background-color: var(--primary);
+    padding: 8px;
+    font-size: 25px;
+    color: #fff;
+    border: 5px solid var(--primary);
+}
+.btn-2{
+    background: linear-gradient(180deg, rgba(255, 232, 232, 0) 0%, rgba(255, 255, 255, 0.23) 100%);
+    /* border: 5px solid #FFA86D; */
+    box-shadow: -5px 9px 13px 2px var(--primary);
+    border-radius: 37px;
+    
+    padding: 8px;
+    text-align: center;
+    background-color: var(--primary);
+    position: absolute;
+    margin-left: 200px;
+    border: 5px solid var(--primary);
+}
+.btn-2 i{
+    background: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    color: #FF8B3B;
+    font-size: 35px;
+    font-weight: 700;
+}
+.bt-text p{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 1px;
+    padding-top: 5px;
+    line-height: 15px;
+    /* padding: 20px; */
+}
+.bt-section-1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bt-section-2{
+    /* display: flex; */
+    width: 120px;
+    background-color: var(--primary) !important;
+    background: linear-gradient(180deg, rgba(255, 232, 232, 0) 0%, rgba(255, 255, 255, 0.23) 100%);
+    /* border: 5px solid #FFA86D; */
+    box-shadow: 1px 9px 13px 2px var(--primary);
+    text-align: center;
+    justify-content: center;
+    /* padding: 8px; */
+    border-radius: 10px;
+    /* margin-left: 225px; */
+    border-radius: 50px;
+    border: 5px solid var(--primary);
+    margin-right: 20px;
+}
+.bt-section-inner{
+   display: flex;
+   justify-content: space-between;
+   padding: 8px;
+   padding-bottom: 0px;
+   padding-top: 10px;
+} 
+.bt-plus i{
+    color: var(--primary);
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.bt-plus{
+    margin-top: 4.5px;
+}
+
+.pro-facebook{
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    width: 323px;
+    padding: 8px 6px;
+    
+}
+.pro-facebook i{
+    font-size: 26px;
+    margin-right: 6px;
+    color: blue;
+    margin-left: 6px;
+}
+
+.pro-instagram{
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    width: 323px;
+    padding: 8px 6px;
+    
+}
+.pro-instagram i{
+    font-size: 26px;
+    margin-right: 6px;
+    color: #bc2a8d;
+    margin-left: 6px;
+}
+
+.pro-twitter{
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    width: 323px;
+    padding: 8px 6px;
+    
+}
+.pro-twitter i{
+    font-size: 26px;
+    margin-right: 6px;
+    color: #00acee;
+    margin-left: 6px;
+}
+.pro-youtube{
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    width: 323px;
+    padding: 8px 6px;
+    
+}
+.pro-youtube i{
+    font-size: 26px;
+    margin-right: 6px;
+    color: red;
+    margin-left: 6px;
+}
+
+.contact-details{
+    font-size: 30px;
+}
+.contact-details i{
+    font-size: 25px;
+    padding: 8px;
+    color: #fff;
+    
+}
+.prototype-profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pro-lname{
+    margin-left: 10px;
+}

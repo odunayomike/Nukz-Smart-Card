@@ -1,0 +1,436 @@
+.dashboard{
+    display: flex;
+}
+.dashboard-head{
+    display: flex;
+    /* margin-left: 60px; */
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    justify-content: centr;
+    align-items: center;
+   
+}
+.dashboard-body{
+    width: 100%;
+    padding: 40px;
+}
+.top-button{
+    float: right;
+    margin-left: auto;
+    order: 2;
+    /* margin-left: 400px; */
+    
+}
+.create-folder-form input{
+    border: 0.5px solid #686868;
+    color: #686868;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 18px 14px;
+    
+}
+.create-folder-form button{
+    text-align: center; 
+    margin: auto;
+    padding: 18px 14px;
+    border-radius: 20px;
+    background: #FF8B3B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    border: 5px solid #FFBB8B;
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.23);
+}
+.top-button button{
+    padding: 18px 14px;
+    border-radius: 20px;
+    background: #FF8B3B;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    border: 5px solid #FFBB8B;
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.23);
+}
+.create-button{
+    padding: 10px;
+}
+
+.side-bar{
+    background: #FFFFFF;
+/* Shadow */
+
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+    width: 100px;
+
+}
+.side-bar div{
+    cursor: pointer;
+    padding: 25px;
+}
+.menu img{
+    width: 80%;
+}
+.side-bar-menu div{
+    margin-top: 20px;
+}
+
+.folder{
+    color: #686868;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+
+}
+.rectangle{
+    margin-top: 20px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+    border-radius: 0px;
+    border-radius: 5px;
+}
+.top-rec{
+    display: flex;
+    padding: 20px;
+}
+/* .view-all{
+    float: right;
+} */
+.top-rec a{
+    text-decoration: none;
+}
+.view-all h3{
+    text-align: right;
+    color: #686868;
+    padding-right: 7px;
+
+}
+.your-folder{
+    color: #686868;
+
+}
+.view-body{
+    margin-left: auto;
+    order: 2;
+}
+.view-all{
+    display: flex;
+
+}
+.view-img{
+    margin-top: 24px;
+    order: 2;
+}
+.folders{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-flow: wrap;
+ 
+}
+.folder-icon{
+    justify-content: space-around;
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+}
+.folder-box p{
+    padding: 30px;
+    margin-top: -20px;
+    
+}
+.folder-icon img{
+    width: 100%;
+}
+.user-button{
+    float: right;
+    display: flex;
+}
+.user-button img{
+    float: right;
+    order: 2;
+}
+.create-folder{
+    margin-top: 20px;
+    padding: 50px;
+    width: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+    border-radius: 0px;
+
+}
+.folder-create h3{
+    margin-top: -20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    color: #686868;
+
+}
+.setting-form input{
+    border: 0.5px solid #686868;;
+    width: 100%;
+    padding: 18px 14px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.name-input img {
+    position: absolute;
+    width: 20px;
+    margin-top: -35px;
+    margin-left: 270px
+}
+.setting-submit{
+    width: 100%;
+    padding: 18px 15px;
+    border-radius: 10px;
+    /* margin-left: 40px; */
+    border: 5px solid #FFBB8B;
+    background: #FF8B3B;
+    box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.23);
+    
+}
+.setting-contents{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+    border-radius: 0px;
+    margin-left: 50px;
+    padding: 35px;
+}
+.user-img img{
+
+    padding: 54px;
+    background: red;
+    border: 5px solid #000000;
+
+}
+.user-details{
+    margin-left: 30%;
+    mar
+}
+.setting-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #686868;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.analytics-top{
+    display: flex;
+    margin-top: 30px;
+    background: red;
+}
+.analytics-top button{
+    margin-top: 18px;
+}
+.analytics-top h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #686868;
+
+}
+.analytics-body{
+    padding: 40px;
+}
+.overview{
+    padding: 25px;
+}
+.overview-top{
+    display: flex;
+}
+.overview-button{
+    float: right;
+    margin-left: auto;
+    display: flex;
+    overflow: auto;
+}
+.overview-analytics{
+    display: flex;
+    padding: 30px;
+    /* margin-top: -90px; */
+    justify-content: space-around;
+}
+.overview-analytics-text {
+    display: flex;
+    background: #EEEEEE;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    color: #686868;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.overview-second-part{
+    padding-left: 10px;
+    margin-top: -9px;
+   
+}
+.admin-user-view{
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+    border-radius: 0px;
+}
+.admin-user-view-text{
+    display: flex;
+    padding: 20px;
+}
+.text1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    color: #686868;
+}
+.text2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 6px;
+    color: #A3A3A3;
+    margin-left: 6px;
+
+}
+.user-table th{
+    text-align: left;
+    background: #FFF7F2;
+    padding: 22px 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #686868;
+    
+}
+.user-table table{
+    width: 100%;
+    border-collapse: collapse
+}
+.user-table td{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #686868;
+    padding: 35px 15px;
+    border-bottom: 0.3px solid #686868;
+    
+}
+.create-admin-modal {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.virtual-card button {
+    padding: 20px;
+}
+
+.container1 {
+    margin: auto;
+    width: 70% !important;
+}
+
+.pending{
+    color: red !important;
+    font-weight: 700 !important;
+}
+
+.sorted {
+     color: green !important;
+    font-weight: 700 !important;
+}
+.activate{
+    background: green !important;
+}
+
+.activated{
+    color: green !important;
+    font-weight: 700 !important;
+}
+.suspended {
+    color: grey !important;
+    font-weight: 700 !important;
+}
+
+
+.box1{
+    /* padding: 10px; */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+}
+.analytics-box{
+    padding: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.box-table-head{
+    background: #FFF7F2;
+    padding: 10px;
+    
+}
+
+.box-table-head th {
+    font-style: normal;
+    font-weight: 500;
+}
+.top-head{
+    padding: 25px 15px 10px 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.box{
+    width: 100%;
+}
+.box1{
+    width: 50%;
+    
+}
+
+.more-user-details{
+    background: #fff;
+    padding: 50px;
+    /* position: absolute; */
+    top: 0;
+}
+
+.status-pending{
+    background: #ff8b3b !important;
+    color: #fff !important;
+}
+.status-completed {
+    background: grey !important;
+    color: #000 !important;
+}

@@ -1,0 +1,122 @@
+body {
+  background: #f6f9fd !important;
+}
+
+.header {
+  background: #2d4c81 !important;
+  padding: 15px;
+  height: 400px !important;
+}
+.header img {
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-text {
+  /* position: absolute; */
+  margin-top: -250px;
+}
+.header-text h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.header-text p {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.faq-section {
+  padding-top: 20px important;
+  display: flex;
+  background: #f6f9fd !important;
+  padding: 75px;
+}
+
+@media screen and (max-width: 600px) {
+  .faq-section {
+    padding-top: 20px important;
+    display: block !important;
+    background: #f6f9fd !important;
+    padding: 15px !important;
+  }
+  form label {
+    margin-left: 0px !important;
+  }
+
+  .feedback {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+}
+
+.questions {
+  width: 100%;
+}
+
+.question {
+  margin-top: 20px;
+  margin-bottom: -60px;
+  padding: 15px 25px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.question1 p {
+  margin-bottom: -1px;
+}
+.answer {
+  padding: 25px;
+  margin-top: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  visibility: hidden;
+  overflow: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.answer.ansdisplay {
+  max-height: 500px;
+  transition: max-height 4s ease;
+  visibility: visible !important;
+  margin-top: 70px;
+}
+
+.question i {
+  cursor: pointer;
+}
+.feedback {
+  text-align: center;
+  margin-left: 43px;
+  background: #f79e1b;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 35px;
+  margin-top: 20px !important;
+  margin-right: 50px;
+  width: 100%;
+  color: #fff;
+}
+
+.feedback form {
+  margin-top: 40px;
+}
+.feedback button {
+  background: #2d4c81;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+}
+
+/* .ansdisplay {
+  
+  display: none !important;
+} */
